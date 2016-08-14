@@ -12,6 +12,7 @@
 #include "gobjects.h"
 #include "gwindow.h"
 #include "TileNode.h"
+#include "TileStack.h"
 using namespace std;
 
 class TileStack {
@@ -26,7 +27,7 @@ public:
     void clear();
 
 private:
-    // TODO: declare private members
+    TileNode* front;
 };
 
 #endif

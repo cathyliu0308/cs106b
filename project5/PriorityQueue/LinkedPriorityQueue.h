@@ -26,10 +26,9 @@ public:
     int peekPriority() const;
     int size() const;
     friend ostream& operator <<(ostream& out, const LinkedPriorityQueue& queue);
-
+    //void LinkedPriorityQueue::printOut();
 private:
-    // TODO: add any other member functions/variables necessary
-
+    PQNode* head;
 };
 
 #endif
